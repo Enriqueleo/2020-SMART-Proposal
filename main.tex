@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+\usepackage[top=2.5 cm, bottom=2.5 cm, left=2.54 cm, right=2.54 cm, marginparwidth=2cm]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,tikz,amsfonts, mathrsfs, graphicx, physics, hyperref, esint, float, gensymb}
+
+\setlength{\parskip}{-0.85em}
+\renewcommand{\baselinestretch}{1.5}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Grad}{\vec{\nabla}}
+
+\begin{document}
+
+\title{Bredon Homology of Projective Spaces}
+\author{Enrique Le\'{o}n and Agn\`{e}s Beaudry}
+\date{16 of June 2020}
+\maketitle
+\section{Introduction}
+%\begin{itemize}
+    %\item Different mathematicians worked on topology separately with different terms
+    
+    %\item Homology
+    
+    %\item The main topic of the REU is CW-complexes which are topological spaces that are built from attaching spheres of various dimensions together (turns out that a lot of spaces can be modeled off of CW-complexes). The REU will be more algebraic in nature though, as we will be computing something called the “homology groups” of these spaces, which are algebraic invariants which detect things such as holes in the space. Along with computing these algebraic invariants, a big part of our goal is creating novel visualizations for these spaces. This would be the part of the project that you and I would focus a bit more heavily on.
+    
+    %\item Important to De Rham homology. Doing computations that have not been done.
+    
+    %\item Build sphere out of symmetries, how these \textit{patches} preserve the symmetries. When applying group actions the patches are sent to the same dimensions or similar patch.
+
+%\end{itemize}
+Topology has its beginning with mathematicians wondering what properties of space we can study if we lose the notion of distances and only working with closeness. CW complexes are a topological spaces that are constructed by attaching spheres of various dimensions. CW complexes can approximate topological spaces that we are interested in. CW complexes allows us to study topological spaces in an algebraic manner. Homology is the name of this algebraic tool. Homology allow us to detect holes and higher dimensional analogs holes in space.\newline
+We will examine the symmetries of the spaces by looking at the different CW structures under different group actions. There is a trend in mathematics that involves studying symmetries using group actions. For instance, the dihedral group describes the symmetries of a regular $n$-gon. Using this technique on CW complexes is a new and unexplored field of research.
+
+\section{Methods}
+An $n$-cells is the interior of the $n$-dimensional sphere. Using chain complexes we are mapping $n$-cells onto $(n-1)$-cells. From these chain complexes we are taking group quotients to get information out of them. For instance, the number of connected components and holes.\newline
+The groups acting on our topological spaces are square matrices. Given a specific topological space we want to examine what how the Bredon homology as the acting group varies. .\newline
+%This is a chain complex 
+
+\section{Timeline}
+\subsection{Week 1}
+Understanding Bredon Homology groups and transfer maps.
+
+\subsection{Week 2}
+Sphere representations, compute $S^{\tau}$, $S^{1+\tau}$, $\tau$ is a matrix (transformation).
+
+\subsection{Week 3}
+$S^{\omega}$, Projective representations, $\mathbb{P}(\tau)$, $\tau$ and $\omega$ are matrices (transformations).
+
+\subsection{Week 4}
+$\mathbb{P}(\omega)$, $\mathbb{P}(\tau + \omega)$ or $\mathbb{P}(\sigma + \tau)$, projective space.
+
+\subsection{Week 5}
+In general $\mathbb{P}(a + b\tau + c\omega)$.
+
+\subsection{Week 6}
+Examples with $C_{3^n}$, n is an integer, matrix group.
+
+\subsection{Week 7}
+Statements in general about $C_{p^n}$, n is an integer, $p$ is a prime.
+
+\subsection{Week 8}
+Collect results.
+
+\bibliographystyle{plain}
+\bibliography{2020SMART.bib}
+\end{document}
